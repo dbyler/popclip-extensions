@@ -4,7 +4,12 @@ My small collection of [PopClip](http://pilotmoon.com/popclip/) extensions.
 
 ## Installation
 
-This repository only includes these as source bundles (.popclipext), not packaged .popclipextz versions. To install, just make sure the extension of a folder is .popclipext and double click it in Finder.
+To install:
+
+1. Download and extract the ZIP file
+2. Open the PopClip .popclipext file
+
+![Installing from Github](https://raw.githubusercontent.com/dbyler/popclip-extensions/main/installation.png "Installation from Github")
 
 ## Extensions
 
