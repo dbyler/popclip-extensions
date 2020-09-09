@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>ManyChat</string>
+	<key>Extension Identifier</key>
+	<string>net.bylr.popclip.extension.manychat-customer</string>
+	<key>Extension Description</key>
+	<dict>
+		<key>en</key>
+		<string>Open ManyChat customer in a web browser with the selected customer ID.</string>
+	</dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>URL</key>
+			<string>http://manychat.com/{popclip option account}/chat/{popclip text}</string>
+			<key>Image File</key>
+			<string>ManyChat.png</string>
+			<key>Title</key>
+			<string>ManyChat</string>
+			<key>Regular Expression</key>
+			<string>(?s)^\d{16}$</string>
+		</dict>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Identifier</key>
+			<string>accountid</string>
+			<key>Option Label</key>
+			<dict>
+				<key>en</key>
+				<string>ManyChat Account ID</string>
+			</dict>
+			<key>Option Type</key>
+			<string>string</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<dict>
+		<key>Name</key>
+		<string>Dan Byler</string>
+		<key>Link</key>
+		<string>http://bylr.net</string>
+	</dict>
+	<key>Extension Image File</key>
+	<string>ManyChat.png</string>
+	<key>Required Software Version</key>
+	<integer>693</integer>
+</dict>
+</plist>
